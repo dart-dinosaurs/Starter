@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Work+Sans&display=swap');
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.pic{
+    width: 40vw;
+    margin: 0;
+}
+
+.text{
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+}

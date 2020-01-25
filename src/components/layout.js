@@ -35,7 +35,6 @@ const AppWithAuthentication = withAuthentication(({ children }) => (
     <Navigation />
     <hr />
     {children}
-    <h1 className={layoutStyles.test}>Testing</h1>
   </Fragment>
 ));
 
