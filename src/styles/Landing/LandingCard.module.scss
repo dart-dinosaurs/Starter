@@ -1,5 +1,6 @@
 .container{
     max-width: 400px;
+    min-width: 300px;
     width: 30vw;
 }
 
@@ -10,6 +11,9 @@
 .img-container{
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .heading{
