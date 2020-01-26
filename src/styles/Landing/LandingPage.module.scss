@@ -1,17 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap');
 
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100vw;
+    align-items: center;
 }
 
 .pic{
-    width: 40vw;
+    width: 30vw;
     margin: 0;
 }
 
 .text{
-    font-family: "Quicksand", sans-serif;
-    font-size: 30px;
+    h1{
+        font-family: "Montserrat", sans-serif;
+        font-size: 50px;
+        width: 300px;
+    }
+    h2{
+        font-family: "Work Sans", sans-serif;
+        font-size: 20px;
+        color: grey;
+        width: 300px;
+    }
 }

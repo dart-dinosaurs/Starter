@@ -1,12 +1,12 @@
 import React from 'react'
-import Landing from '../../images/Landing2.jpg'
+import Landing from '@images/Landing2.jpg'
 import LandingStyles from '@styles/Landing/LandingPage.module.scss'
 
 const LandingPic = () => {
     return(
         <div className={LandingStyles.container}>
             <div className={LandingStyles.text}>
-                <h1>Welcome to the offical UHN Inventory System</h1>
+                <h1>UHN Inventory System</h1>
             </div>
             <div>
                 <img className={LandingStyles.pic} src={Landing}></img>
