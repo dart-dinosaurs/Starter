@@ -3,6 +3,7 @@ import layoutStyles from '@styles/layoutStyles.module.scss'
 import Navigation from './Navigation';
 import getFirebase, { FirebaseContext } from './Firebase';
 import withAuthentication from './Session/withAuthentication';
+import '@styles/General.css'
 
 class Layout extends Component {
   state = {
@@ -35,7 +36,6 @@ const AppWithAuthentication = withAuthentication(({ children }) => (
     <Navigation />
     <hr />
     {children}
-    <h1 className={layoutStyles.test}>Testing</h1>
   </Fragment>
 ));
 

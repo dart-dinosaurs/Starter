@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: left;
+    height: 60px;
+    list-style-type: none;
+    padding: 0;
+    width: 100vw;
+    align-items: center;
+    li{
+        margin: 10px;
+    }
+    background-color: #263a47;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding-right: 30px;
+    li{
+        a{
+            text-decoration: none;
+            color: black;
+            padding: 5px;
+            font-family: "Montserrat", sans-serif;
+            text-transform: uppercase;
+            color: white;
+        }
+    }
+}
+
+.logo{
+    padding-left: 30px;
+    color: white;
+}
