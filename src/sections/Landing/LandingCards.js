@@ -9,7 +9,7 @@ import Pic2 from '@images/clipboard.jpg'
 
 const Cards = () =>{
     return(
-        <div className={LandingStyles.imgContainer}>
+        <div className={LandingStyles.cardsContainer}>
             {CardInfo.map((card) => {
                 return(
                     <Card information={card}/>
