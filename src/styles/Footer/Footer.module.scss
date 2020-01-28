@@ -1,0 +1,27 @@
+.container{
+    background-color: #263a47;
+    height: 200px;
+    margin: 0;
+}
+
+.text-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1{
+        padding-top: 20px;
+        font-family: "Montserrat", sans-serif;
+        color: lighten(#263a47, 20%);
+        text-align: center;
+        margin: 0;
+    }
+
+    h2{
+        font-family: "Montserrat", sans-serif;
+
+        color: lighten(#263a47, 15%);
+        text-align: center;
+    }
+}
